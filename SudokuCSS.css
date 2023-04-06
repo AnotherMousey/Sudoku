@@ -1,0 +1,39 @@
+#box {
+    text-align: center;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+#SudokuBoard table {
+    border-collapse: collapse;
+    font-size: 150%;
+    font-family: san-serif;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#SudokuBoard table td {
+    background-color: rgb(195, 195, 195);
+    width: 33px;
+    min-width: 33px;
+    height: 33px;
+    min-height: 33px;
+    border: 1px solid black;    
+}
+
+#EndGame {
+    font-size: 300%;
+    font-weight: bold;
+    color: blue;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color:rgb(195, 195, 195);
+    color: black;
+    font-weight: bolder;
+    border-radius: 20px 20px 20px 20px;
+}
